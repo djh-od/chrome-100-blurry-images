@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blurry?</title>
+  <style>
+    body {
+      display: flex;
+      gap: 20px;
+    }
+    .squared, .natural {
+      display: inline-block;
+      height: 280px;
+      width: 210px;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    .squared img {
+      height: 75%;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>Natural aspect ratio</h2>
+    <div class="natural">
+      <img src=" https://ic.od-cdn.com/resize?type=auto&width=536&quality=80&url=%2FImageType-400%2F2389-1%2F112%2F3FE%2FD8%2F%7B1123FED8-AAD0-4DD8-98C6-3F9FA3AAADC9%7DImg400.jpg" />
+    </div>
+  </div>
+  <div>
+    <h2>Altered aspect ratio</h2>
+    <div class="squared">
+      <img src=" https://ic.od-cdn.com/resize?type=auto&width=536&quality=80&url=%2FImageType-400%2F2389-1%2F112%2F3FE%2FD8%2F%7B1123FED8-AAD0-4DD8-98C6-3F9FA3AAADC9%7DImg400.jpg" />
+    </div>
+  </div>
+</body>
+</html>
